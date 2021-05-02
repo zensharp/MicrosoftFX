@@ -24,17 +24,17 @@
     "fileMetadataFiles": [],
     "template": [
       "default",
-      "../darkfx"
+      "../microsoftfx"
     ],
     "postProcessors": [
       "ExtractSearchIndex"
     ],
     "globalMetadata": {
-      "_appFooter": "<span>Copyright © Steffen Wilke<br>Generated with <strong>DocFX</strong></span>",
-      "_appTitle": "darkFX",
+      "_appFooter": "<span>Copyright © AndrewMJordan<br>Generated with <strong>DocFX</strong></span>",
+      "_appTitle": "MicrosoftFX",
       "_enableSearch": "true",
       "_gitContribute": {
-        "repo": "https://github.com/steffen-wilke/docfx-dark"
+        "repo": "https://github.com/AndrewMJordan/MicrosoftFX"
       },
       "_gitUrlPattern": "github"
     },
