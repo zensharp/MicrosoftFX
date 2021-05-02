@@ -1,22 +1,20 @@
 @import "theme-colors.css";
 @import "layout.css";
 
-body:html {
-    font-family: Segoe UI,SegoeUI,Helvetica Neue,Helvetica,Arial,sans-serif;
-    -webkit-font-smoothing: antialiased;
-    font-weight: 400;
-    text-rendering: optimizeLegibility;
+body {
+    font-family: Segoe UI,SegoeUI,Helvetica Neue,Helvetica,Arial,sans-serif !important;
+    -webkit-font-smoothing: antialiased !important;
+    font-weight: 400 !important;
+    text-rendering: optimizeLegibility !important;
 }
 
 body {
 	font-size: 16px;
-	font-weight: 400;
 	color: var(--theme-text);
 	background-color: var(--theme-body-background);
 }
 
 article h1 {
-	font-size: 40px;
 	font-weight: 600;
 	color: var(--theme-text);
 }
@@ -119,17 +117,18 @@ blockquote {
 }
 
 /* Side TOC */
-.sidetoc > div > ul > li > a {
+.sidetoc {
+	background-color: rgb(0, 0, 0, 0);
+	border: none;
+}
+
+.sidetoc a {
 	color: var(--theme-text) !important;
 	text-decoration-style: none !important;
 }
 
-.sidetoc > div > ul > li > a:hover {
+.sidetoc a:hover {
 	text-decoration: underline !important;
-}
-
-.filter-icon {
-	color: var(--theme-primary-base);
 }
 
 .sidefilter {
@@ -141,9 +140,8 @@ blockquote {
 	background-color: rgb(0, 0, 0, 0);
 }
 
-.sidetoc {
-	background-color: rgb(0, 0, 0, 0);
-	border: none;
+.filter-icon {
+	color: var(--theme-primary-base);
 }
 
 .toc {
@@ -189,20 +187,20 @@ table {
 	background-color: var(--theme-table-border-dark) !important;
 }
 
-thead > tr > th {
+thead th {
 	border-width: 1px !important;
 	border-color: var(--theme-table-border-dark) !important;
 	background-color: var(--theme-table-row-header) !important;
 	padding: 16px 16px 12px 12px !important;
 }
 
-tbody > tr > th {
+tbody th {
 	border-color: var(--theme-table-border-dark) !important;
 	background-color: var(--theme-table-row-header) !important;
 	padding: 16px 16px 12px 12px !important;
 }
 
-tbody > tr > td {
+tbody td {
 	border-color: var(--theme-table-border-dark) !important;
 	background-color: var(--theme-body-background) !important;
 	padding: 12px 12px 16px 16px !important;
@@ -217,31 +215,38 @@ tbody > tr > td {
 }
 
 .NOTE {
-	background-color: var(--theme-primary-background) !important;
+	background-color: var(--theme-info-background);
 }
-.NOTE > h5 {
-	color: var(--theme-primary-dark);
+.NOTE h5 {
+	color: var(--theme-info-dark);
+}
+
+.TIP {
+	background-color: var(--theme-success-background);
+}
+.TIP h5 {
+	color: var(--theme-success-dark);
 }
 
 .WARNING {
-	background-color: var(--theme-warning-background) !important;
+	background-color: var(--theme-warning-background);
 }
-.WARNING > h5 {
+.WARNING h5 {
 	color: var(--theme-warning-dark);
 }
 
 .CAUTION {
-	background-color: var(--theme-danger-background) !important;
+	background-color: var(--theme-danger-background);
 }
-.CAUTION > h5 {
+.CAUTION h5 {
 	color: var(--theme-danger-dark);
 }
 
-.TIP {
-	background-color: var(--theme-success-background) !important;
+.IMPORTANT {
+	background-color: var(--theme-primary-background);
 }
-.TIP > h5 {
-	color: var(--theme-success-dark);
+.IMPORTANT h5 {
+	color: var(--theme-primary-dark);
 }
 
 /* Search box */
