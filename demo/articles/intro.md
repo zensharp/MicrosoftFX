@@ -10,11 +10,15 @@ vultuque, magni venabula ferarum manibus occasus!
 > [!NOTE]
 > This is a note which needs your attention, but it's not super important.
 
-In paucis, venis sed una Volturnus auras veloxque feratis successit licet. Oras
+In paucis, venis sed una *Volturnus* auras veloxque feratis successit licet. Oras
 Nestor hoc nymphae belua. Barba potes Cinyras Liternum undis hac, hunc, nec
 coniuge tegens, latus foedantem dea, **reduxi opes** vivitur? Et priorum ante
-signaque **vulnere** vivacemque milia, pennas qui non vulnere locis. Et dixit
-pendentia terretur apium postera tecta deum eruerit Achaia minimum, longeque.
+signaque **vulnere** vivacemque milia, pennas qui non vulnere locis. 
+
+> [!TIP]
+> This is a tip.
+
+Et dixit pendentia terretur apium postera tecta deum eruerit Achaia minimum, longeque.
 
 > [!WARNING]
 > This is a warning containing some important message.
@@ -27,26 +31,39 @@ tibi inspiciunt iamque maesta his suis.
 > [!CAUTION]
 > This is a warning containing some **very** important message.
 
-    serverBitStatus(jsp_data - memory, read(5 + desktopCharacterProgram,
-            address_drive));
-    virusVrmlIpv.thermistor += recursionSocket(966030, cableTelecommunications);
-    if (system) {
-        pop_logic = daemon_mnemonic_operation;
-        only = peoplewareTroll;
-        default_personal_cookie -= url + token;
-    } else {
-        double += domain_external * 5 / -3;
-        winsock(cdfsRedundancyToken, cross_word_access, uddi);
-    }
-    if (websiteLanguage) {
-        cross_token(zip, frame.mbr(4));
-        golden.backsideOsMenu += serp;
-        whiteRestore.videoDimmOpen += mountPlain * 15;
-    } else {
-        spool.irc = play_suffix;
-        cmos += 96;
-        artUpImpact.leafWebmasterHorse = domainBrowser;
-    }
+Lorem ipsum dolor sit amet.
+
+> [!IMPORTANT]
+> This is a note which needs your attention, but it's not super important.
+
+
+```python
+# Z_SYNC_FLUSH suffix
+ZLIB_SUFFIX = b'\x00\x00\xff\xff'
+# initialize a buffer to store chunks
+buffer = bytearray()
+# create a zlib inflation context to run chunks through
+inflator = zlib.decompressobj()
+
+# ...
+def on_websocket_message(msg):
+  # always push the message data to your cache
+  buffer.extend(msg)
+
+  # check if the last four bytes are equal to ZLIB_SUFFIX
+  if len(msg) < 4 or msg[-4:] != ZLIB_SUFFIX:
+    return
+
+  # if the message *does* end with ZLIB_SUFFIX,
+  # get the full message by decompressing the buffers
+  # NOTE: the message is utf-8 encoded.
+  msg = inflator.decompress(buffer)
+  buffer = bytearray()
+
+  # here you can treat `msg` as either JSON or ETF encoded,
+  # depending on your `encoding` param
+```
+
 
 ## Rogavi umeris tulisse
 
@@ -68,15 +85,23 @@ Bromiumque aquosae aevis te [modo](http://solioad.com/) forma, legi robora: plus
 arbor latrator. Palluit in quanta mitte miluus; amantes hominesque imago, si
 Ianthe, unda. Acies in vulnere secum, forte, barba fumo solet ignibus; sanguine!
 
-    if (webcamSystem.modemPointClob(3) < 14) {
-        yobibyteReimage = simplex_readme / 4 + responsive_server;
-    } else {
-        big(thumbnailVirtual, data_primary_lamp);
-    }
-    kibibyte_protector_active += nocPackBridge + white;
-    var firewall_socket_bus = up;
-    module_carrier += webmail_source_hardware(us, metadata, radcab - 3) - 3;
-    cpcPartitionLink *= sessionSoa / surface * systemHacker;
+```cpp
+#define X(ot) 0
+    
+#undef X
+
+#ifdef X 
+static char t = 't';
+#endif
+
+// dsdfsd
+/* d d */
+std::string InteractObjective::verb() const
+{
+    int a = 0;
+    return m_verb;
+}
+```
 
 Nutantem spatiis, corruat memor in sed nate, auro, ora amissa fatidicus et.
 Manusque amore spectabat [tyranni](http://www.inposito-quam.io/quotquae.html)
