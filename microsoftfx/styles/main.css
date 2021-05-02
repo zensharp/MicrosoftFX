@@ -396,17 +396,18 @@ tbody td {
 
 /* Search results */
 .pagination a {
+	color: var(--theme-text) !important;
 	background-color: transparent !important;
 	border-color: var(--theme-border) !important;
 }
 
-.pagination .active a {
-	background-color: var(--theme-primary-base) !important;
+.pagination a:hover {
+	color: var(--theme-primary-hover) !important;
 	border-color: var(--theme-primary-hover) !important;
 }
 
-.pagination a:hover {
-	color: var(--theme-primary-hover) !important;
+.pagination .active a {
+	background-color: var(--theme-primary-base) !important;
 	border-color: var(--theme-primary-hover) !important;
 }
 
@@ -416,4 +417,9 @@ tbody td {
 }
 .pagination .active a {
 	color: var(--theme-primary-invert) !important;
+}
+
+.pagination .disabled a {
+	color: var(--theme-secondary-base) !important;
+	border-color: var(--theme-border) !important;
 }
