@@ -1,12 +1,9 @@
 # MicrosoftFX
-A DocFX template inspired by [Microsoft Docs](https://docs.microsoft.com) by [AndrewMJordan](https://github.com/AndrewMJordan)
-
-
+A [DocFX](https://dotnet.github.io/docfx/) template inspired by Microsoft's Documentation theme.
 
 ## Links
-
+- [MicrosoftFX (GitHub)](https://github.com/AndrewMJordan/MicrosoftFX)
+- [MicrosoftFX Demo](https://andrewmjordan.github.io/MicrosoftFX/)
 - [DocFX](https://dotnet.github.io/docfx/)
-- [GitHub - MicrosoftFX](https://github.com/AndrewMJordan/MicrosoftFX)
 - [Microsoft Docs](https://docs.microsoft.com)
-- [Demo](https://andrewmjordan.github.io/MicrosoftFX/)
 
