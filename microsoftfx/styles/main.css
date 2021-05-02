@@ -400,23 +400,19 @@ tbody td {
 	background-color: transparent !important;
 	border-color: var(--theme-border) !important;
 }
-
 .pagination a:hover {
 	color: var(--theme-primary-hover) !important;
 	border-color: var(--theme-primary-hover) !important;
 }
 
 .pagination .active a {
+	color: var(--theme-primary-invert) !important;
 	background-color: var(--theme-primary-base) !important;
 	border-color: var(--theme-primary-hover) !important;
 }
-
 .pagination .active a:hover {
 	background-color: var(--theme-primary-hover) !important;
 	border-color: var(--theme-primary-base) !important;
-}
-.pagination .active a {
-	color: var(--theme-primary-invert) !important;
 }
 
 .pagination .disabled a {
