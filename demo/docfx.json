@@ -14,43 +14,47 @@
       }
   ],
   "build": {
-      "globalMetadata": {
-          "_appTitle": "MicrosoftFX",
-          "_appFooter": "MicrosoftFX",
-          "_enableSearch": true
+    "content": [
+      {
+        "files": [
+          "articles/**.md",
+          "articles/**/toc.yml",
+          "toc.yml",
+          "*.md",
+          "api/**.md",
+          "api/**/toc.yml"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "images/**"
+        ]
+      }
+    ],
+    "dest": "_site",
+    "globalMetadataFiles": [],
+    "fileMetadataFiles": [],
+    "template": [
+      "default",
+      "../microsoftfx"
+    ],
+    "postProcessors": [
+      "ExtractSearchIndex"
+    ],
+    "globalMetadata": {
+      "_appFooter": "<span>Copyright © AndrewMJordan<br>Generated with <strong>DocFX</strong></span>",
+      "_appTitle": "MicrosoftFX",
+      "_enableSearch": "true",
+      "_gitContribute": {
+        "repo": "https://github.com/AndrewMJordan/MicrosoftFX"
       },
-      "content": [
-          {
-              "files": [
-                  "toc.yml",
-                  "index.md"
-              ]
-          },
-          {
-              "src": "api",
-              "files": [
-                  "*.yml"
-              ],
-              "dest": "api"
-          },
-          {
-              "src": "articles",
-              "files": [
-                  "toc.yml",
-                  "*.md"
-              ],
-              "dest": "articles"
-          }
-      ],
-      "sitemap": {
-          "baseUrl": "https://andrewmjordan.github.io/MicrosoftFX",
-          "changefreq": "weekly",
-          "fileOptions": {
-              "api/*": {
-                  "changefreq": "daily"
-              }
-          }
-      },
-      "dest": "_site"
+      "_gitUrlPattern": "github"
+    },
+    "noLangKeyword": false,
+    "keepFileLink": false,
+    "cleanupCacheHistory": false,
+    "disableGitFeatures": false
   }
 }

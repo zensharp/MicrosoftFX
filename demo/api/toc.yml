@@ -1,2 +1,56 @@
-- name: Petstore API
-  href: index.md
+### YamlMime:TableOfContent
+- uid: Global
+  name: Global
+  items:
+  - uid: Global.ClassA
+    name: ClassA
+  - uid: Global.ClassB
+    name: ClassB
+  - uid: Global.ClassC
+    name: ClassC
+  - uid: Global.ClassD
+    name: ClassD
+  - uid: Global.ClassE
+    name: ClassE
+  - uid: Global.ClassF
+    name: ClassF
+  - uid: Global.ClassG
+    name: ClassG
+  - uid: Global.ClassH
+    name: ClassH
+  - uid: Global.ClassI
+    name: ClassI
+  - uid: Global.ClassJ
+    name: ClassJ
+  - uid: Global.ClassK
+    name: ClassK
+  - uid: Global.ClassL
+    name: ClassL
+  - uid: Global.ClassM
+    name: ClassM
+  - uid: Global.ClassN
+    name: ClassN
+  - uid: Global.ClassO
+    name: ClassO
+  - uid: Global.ClassP
+    name: ClassP
+  - uid: Global.ClassQ
+    name: ClassQ
+  - uid: Global.ClassR
+    name: ClassR
+  - uid: Global.ClassS
+    name: ClassS
+  - uid: Global.ClassT
+    name: ClassT
+  - uid: Global.ClassU
+    name: ClassU
+  - uid: Global.ClassV
+    name: ClassV
+  - uid: Global.ClassW
+    name: ClassW
+  - uid: Global.ClassX
+    name: ClassX
+  - uid: Global.ClassY
+    name: ClassY
+  - uid: Global.ClassZ
+    name: ClassZ
