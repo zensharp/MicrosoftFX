@@ -1,5 +1,5 @@
 # MicrosoftFX
-[DocFX](https://dotnet.github.io/docfx/) template inspired by Microsoft Documentation.
+[DocFX](https://dotnet.github.io/docfx/) template inspired by Microsoft's Documentation theme.
 This is an override of the default template so you need to enable both in the `docfx.json`.
 
 ## Demo
