@@ -116,6 +116,16 @@ blockquote {
 	border-bottom: 1px solid var(--theme-border) !important;
 }
 
+.sidenav {
+	color: var(--theme-text) !important;
+	background-color: var(--theme-secondary-background);
+	border-bottom: 1px solid var(--theme-border) !important;
+}
+
+.sidenav a {
+	color: var(--theme-text) !important;
+}
+
 /* Side TOC */
 .sidetoc {
 	background-color: rgb(0, 0, 0, 0);
