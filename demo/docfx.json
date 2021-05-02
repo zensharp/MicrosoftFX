@@ -42,5 +42,9 @@
     "keepFileLink": false,
     "cleanupCacheHistory": false,
     "disableGitFeatures": false
+  },
+  "sitemap":
+  {
+    "baseUrl": "https://andrewmjordan.github.io/MicrosoftFX"
   }
 }

@@ -14,6 +14,9 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v2
+      
+    - name: Create index
+      run: cp README.md demo/index.md
 
     - name: Generate documentation files
       uses: nikeee/docfx-action@v1.0.0
