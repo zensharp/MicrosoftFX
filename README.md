@@ -11,12 +11,12 @@ You can view a demo DocFX project with this template [HERE](https://andrewmjorda
 3. Copy the `microsoftfx` folder to the `templates` folder.
 4. Update the `docfx.json` configuration to include the template:
 
-```diff
+```json
 {
     "build": {
         "template": [
             "default",
-+            "templates/microsoftfx"
+            "templates/microsoftfx"
         ]
     }
 }
