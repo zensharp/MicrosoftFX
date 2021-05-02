@@ -9,7 +9,7 @@ You can view a demo DocFX project with this template [HERE](https://andrewmjorda
 1. Download the source or the zipped file from the [releases](https://github.com/andrewmjordan/MicrosoftFX/releases).
 2. Create a `templates` folder in the root of your DocFX directory.
 3. Copy the `microsoftfx` folder to the `templates` folder.
-4. Update the `docfx.json` configuration to include the darkfx template:
+4. Update the `docfx.json` configuration to include the template:
     ```json
     {
         "template": [
